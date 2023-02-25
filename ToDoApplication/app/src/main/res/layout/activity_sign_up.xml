@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white_yellow"
+    tools:context=".SignInActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="310dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome   To       SignUp"
+            android:textStyle="italic"
+            android:textSize="70sp"
+            android:layout_margin="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="100dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/Name"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Name"
+            android:inputType="textPersonName"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/todo_bg"
+            android:textStyle="italic"/>
+
+        <EditText
+            android:id="@+id/Email"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Email"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/todo_bg"
+            android:textStyle="italic"/>
+        <EditText
+            android:id="@+id/Password"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:hint="Enter Your Password"
+            android:layout_marginTop="10dp"
+            android:inputType="textPassword"
+            android:layout_gravity="center"
+            android:background="@drawable/todo_bg"
+            android:textStyle="italic"/>
+
+
+        <TextView
+            android:id="@+id/Signin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SignIn"
+            android:layout_gravity="right"
+            android:textStyle="bold"
+            android:textSize="23sp"/>
+
+        <Button
+            android:id="@+id/SignUp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="SignUp"
+            android:background="@drawable/todo_bg"
+            android:layout_gravity="center"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
